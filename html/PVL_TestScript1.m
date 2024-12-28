@@ -53,7 +53,7 @@ close all; %close all files and figures
 % <pvl_sapmmoduledb_help.html |pvl_sapmmoduledb|> to extract a selected module
 % from the excel version of the Sandia PV Module Database.  The module
 % selected is found on row 123 in that file.
-% addpath('../../MATLAB_PV_LIB/')
+addpath('../../MATLAB_PV_LIB/')
 ModuleParameters = pvl_sapmmoduledb(123,'../Example Data/SandiaModuleDatabase_20120925.xlsx')
 
 %% 0.2    Define the Inverter
